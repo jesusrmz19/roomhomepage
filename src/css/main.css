@@ -1,0 +1,47 @@
+@import './header.css';
+@import './slider.css';
+@import './about.css';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Spartan-Bold';
+  src: url(../fonts/Spartan-Bold.ttf);
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Spartan-Medium';
+  src: url(../fonts/Spartan-Medium.ttf);
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Spartan-SemiBold';
+  src: url(../fonts/Spartan-SemiBold.ttf);
+  font-display: swap;
+}
+
+html {
+  --gray: hsl(0, 0%, 63%);
+  --darkgray: hsl(0, 0%, 27%);
+  --black: hsl(0, 0%, 0%);
+  --white: hsl(0, 0%, 100%);
+  --boldfont: 'Spartan-Bold';
+  --midfont: 'Spartan-Medium';
+  --semifont: 'Spartan-SemiBold';
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+picture,
+source {
+  margin: 0;
+  padding: 0;
+}

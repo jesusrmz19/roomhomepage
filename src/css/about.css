@@ -1,0 +1,26 @@
+.about--txt {
+  padding: 3.5rem 2rem;
+}
+
+.about--img {
+  overflow: hidden;
+}
+
+.about--img img {
+  object-position: -30px;
+}
+
+.about--txt h3 {
+  text-transform: uppercase;
+  font-family: var(--boldfont);
+  font-size: 16px;
+  letter-spacing: 4px;
+}
+
+.about--txt p {
+  font-family: var(--midfont);
+  font-size: 11px;
+  color: var(--gray);
+  line-height: 1.8;
+  margin-top: 1rem;
+}

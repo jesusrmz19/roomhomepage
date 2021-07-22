@@ -1,0 +1,23 @@
+.slide--img {
+  overflow: hidden;
+}
+
+.slide--img img {
+  width: 100%;
+}
+
+.slide--txt {
+  padding: 4rem 2rem;
+}
+
+.slide--txt h3 {
+  font-size: 26px;
+  font-family: var(--boldfont);
+}
+.slide--txt p {
+  font-family: var(--midfont);
+  font-size: 11px;
+  color: var(--gray);
+  line-height: 1.8;
+  margin-top: 1rem;
+}
