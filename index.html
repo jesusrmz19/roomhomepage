@@ -4,16 +4,67 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="./src/css/main.css" />
-    <!-- <script defer src="./src/js/script.js"></script> -->
+    <script defer src="./src/js/script.js"></script>
     <title>Room</title>
   </head>
   <body>
     <header class="header--container">
       <h1>room</h1>
+      <nav class="nav">
+        <button class="nav--btn nav--open">
+          <svg width="20" height="14" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M20 12v2H0v-2h20zm0-6v2H0V6h20zm0-6v2H0V0h20z"
+              fill="#FFF"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+        <div class="nav--menu">
+          <button class="nav--btn nav--close">
+            <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M14.364.222l1.414 1.414L9.414 8l6.364 6.364-1.414 1.414L8 9.414l-6.364 6.364-1.414-1.414L6.586 8 .222 1.636 1.636.222 8 6.586 14.364.222z"
+                fill="#000"
+                fill-rule="evenodd"
+                opacity=".201"
+              />
+            </svg>
+          </button>
+          <ul class="nav--menu--list">
+            <li class="nav--item">home</li>
+            <li class="nav--item">shop</li>
+            <li class="nav--item">about</li>
+            <li class="nav--item">contact</li>
+          </ul>
+
+          <div class="nav--overlay"></div>
+        </div>
+      </nav>
     </header>
     <main>
       <div class="slider--container">
         <div class="slider">
+          <button class="slider__btn slider__btn--right">
+            <svg width="14" height="24" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M1 0l12 12L1 24"
+                stroke="#FFF"
+                fill="none"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+          <button class="slider__btn slider__btn--left">
+            <svg width="14" height="24" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M13 0L1 12l12 12"
+                stroke="#FFF"
+                fill="none"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
           <div class="slide slide--1">
             <div class="slide--img">
               <picture>
@@ -39,8 +90,67 @@
               </p>
             </div>
           </div>
+          <div class="slide slide--2">
+            <div class="slide--img">
+              <picture>
+                <source
+                  media="(min-width:760px)"
+                  srcset="./src/img/desktop-image-hero-2.jpg"
+                />
+                <img
+                  src="./src/img/mobile-image-hero-2.jpg"
+                  alt="White charis with tree in table"
+                  style="width: auto"
+                />
+              </picture>
+            </div>
+            <div class="slide--txt">
+              <h3>We are available all across the globe</h3>
+              <p>
+                With stores all over the world, it's easy for you to find
+                furniture for your home or place of business. Locally, we’re in
+                most major cities throughout the country. Find the branch
+                nearest you using our store locator. Any questions? Don't
+                hesitate to contact us today.
+              </p>
+            </div>
+          </div>
+          <div class="slide slide--3">
+            <div class="slide--img">
+              <picture>
+                <source
+                  media="(min-width:760px)"
+                  srcset="./src/img/desktop-image-hero-3.jpg"
+                />
+                <img
+                  src="./src/img/mobile-image-hero-3.jpg"
+                  alt="White charis with tree in table"
+                  style="width: auto"
+                />
+              </picture>
+            </div>
+            <div class="slide--txt">
+              <h3>Manufactured with the best materials</h3>
+              <p>
+                Our modern furniture store provide a high level of quality. Our
+                company has invested in advanced technology to ensure that every
+                product is made as perfect and as consistent as possible. With
+                three decades of experience in this industry, we understand what
+                customers want for their home and office.
+              </p>
+            </div>
+          </div>
         </div>
-        <button class="btn__shop">shop now</button>
+        <button class="btn__shop">
+          shop now
+          <svg width="40" height="12" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M34.05 0l5.481 5.527h.008v.008L40 6l-.461.465v.063l-.062-.001L34.049 12l-.662-.668 4.765-4.805H0v-1h38.206l-4.82-4.86L34.05 0z"
+              fill="#000"
+              fill-rule="nonzero"
+            />
+          </svg>
+        </button>
       </div>
       <div class="about">
         <div class="about--img about--img_left">

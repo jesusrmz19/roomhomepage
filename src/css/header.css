@@ -10,3 +10,75 @@
   font-family: var(--semifont);
   color: var(--white);
 }
+
+.nav {
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+
+.nav--btn {
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.nav--open {
+  position: absolute;
+  top: 0;
+  left: 15px;
+  z-index: 10;
+  cursor: pointer;
+
+  width: 40px;
+  height: 40px;
+}
+
+.nav--overlay {
+  top: 85px;
+  left: 0;
+  position: absolute;
+  z-index: 500;
+
+  height: 100vh;
+  width: 100%;
+
+  background: var(--black);
+  opacity: 0.6;
+}
+
+.nav--menu {
+  transform: translateX(-100%);
+  transition: all ease 0.5s;
+
+  position: absolute;
+  top: -25px;
+
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 85px;
+  background: var(--white);
+  z-index: 1000;
+}
+
+.nav--close {
+  width: 15%;
+}
+
+.nav--menu--list {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  list-style-type: none;
+}
+
+.nav--item {
+  font-size: 14px;
+  color: var(--black);
+  font-family: var(--boldfont);
+}
+
+.nav--menu.open {
+  transform: translateX(0%);
+}
