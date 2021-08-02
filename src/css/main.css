@@ -33,6 +33,7 @@ html {
   --midfont: 'Spartan-Medium';
   --semifont: 'Spartan-SemiBold';
   --btnsize: 60px;
+  --transition2: all ease 0.2s;
 }
 
 body,

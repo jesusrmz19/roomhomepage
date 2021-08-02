@@ -46,9 +46,13 @@
   color: var(--white);
   border-radius: 0;
   cursor: pointer;
+  transition: var(--transition2);
 }
 .slider__btn--left {
   right: var(--btnsize);
+}
+.slider__btn:hover {
+  background: var(--darkgray);
 }
 
 .slide--img {
@@ -85,6 +89,17 @@
   border: none;
   outline: none;
   letter-spacing: 8px;
+  transition: var(--transition2);
+}
+.btn__shop:hover {
+  cursor: pointer;
+  color: var(--gray);
+}
+.btn__shop svg path {
+  transition: var(--transition2);
+}
+.btn__shop:hover svg path {
+  fill: var(--gray);
 }
 
 @media only screen and (max-width: 330px) {
