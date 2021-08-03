@@ -26,7 +26,7 @@
 }
 
 .slide--img > img {
-  width: 100%;
+  width: auto;
   height: 100%;
   object-fit: cover;
 }
@@ -104,10 +104,16 @@
 
 @media only screen and (max-width: 330px) {
   .slider {
-    height: 780px;
+    height: 720px;
+  }
+  .slider__btn {
+    top: calc(307px - var(--btnsize));
+  }
+  .slide--txt {
+    padding: 3rem 2rem;
   }
   .btn__shop {
-    bottom: 45px;
+    bottom: 55px;
   }
 }
 
@@ -139,9 +145,9 @@
 @media only screen and (min-width: 1024px) {
   .slide--img {
     border: 1px solid red;
+    width: 100%;
   }
   .slide--img img {
-    width: 120%;
-    object-fit: fill;
+    width: 100%;
   }
 }
