@@ -110,3 +110,28 @@
     bottom: 45px;
   }
 }
+
+@media only screen and (min-width: 700px) {
+  .slider {
+    height: 840px;
+  }
+  .slide--img {
+    max-height: 480px;
+  }
+  .slide--txt {
+    padding: 4.5rem;
+  }
+  .slide--txt h3 {
+    font-size: 28px;
+  }
+  .slide--txt p {
+    font-size: 14px;
+  }
+  .slider__btn {
+    top: calc(480px - var(--btnsize));
+  }
+  .btn__shop {
+    left: 4.5rem;
+    bottom: 65px;
+  }
+}

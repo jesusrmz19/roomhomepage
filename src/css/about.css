@@ -30,3 +30,31 @@
     object-position: -60px;
   }
 }
+@media only screen and (min-width: 700px) {
+  .about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto;
+  }
+  .about--img {
+    grid-row: 1;
+  }
+  .about--img_left {
+    grid-column: 1/2;
+  }
+  .about--img_right {
+    grid-column: 2/-1;
+  }
+  .about--txt {
+    grid-column: 1/-1;
+    grid-row: 2;
+    padding: 4.5rem;
+  }
+
+  .about--txt h3 {
+    font-size: 16px;
+  }
+  .about--txt p {
+    font-size: 14px;
+  }
+}
