@@ -65,7 +65,6 @@ const slider = function () {
 
   // Event Listener para las flechas
   document.addEventListener('keydown', function (e) {
-    console.log(e);
     if (e.key === 'ArrowLeft') prevSlide();
     else if (e.key == 'ArrowRight') nextSlide();
   });

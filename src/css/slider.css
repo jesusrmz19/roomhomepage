@@ -135,3 +135,13 @@
     bottom: 65px;
   }
 }
+
+@media only screen and (min-width: 1024px) {
+  .slide--img {
+    border: 1px solid red;
+  }
+  .slide--img img {
+    width: 120%;
+    object-fit: fill;
+  }
+}
