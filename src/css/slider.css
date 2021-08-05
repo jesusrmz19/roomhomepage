@@ -122,7 +122,11 @@
     height: 840px;
   }
   .slide--img {
+    width: 100%;
     max-height: 480px;
+  }
+  .slide--img img {
+    width: 100%;
   }
   .slide--txt {
     padding: 4.5rem;
@@ -144,10 +148,39 @@
 
 @media only screen and (min-width: 1024px) {
   .slide--img {
-    border: 1px solid red;
     width: 100%;
   }
   .slide--img img {
     width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .slider {
+    height: calc((100vh / 3) * 2);
+  }
+  .slide {
+    height: 100%;
+    flex-direction: row;
+  }
+  .slide--img {
+    width: 60%;
+  }
+  .slide--txt {
+    width: 40%;
+    padding: 2rem 3.5rem;
+  }
+  .slider__btn {
+    --height: calc((100vh / 3) * 2);
+    top: calc(var(--height) - var(--btnsize));
+    right: calc(40% - (var(--btnsize) * 2));
+  }
+  .slider__btn--left {
+    right: calc(40% - var(--btnsize));
+  }
+  .btn__shop {
+    position: absolute;
+    bottom: 75px;
+    left: calc(60% + 3rem);
   }
 }

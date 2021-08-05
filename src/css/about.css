@@ -39,6 +39,9 @@
   .about--img {
     grid-row: 1;
   }
+  .about--img img {
+    object-position: 0;
+  }
   .about--img_left {
     grid-column: 1/2;
   }
@@ -68,4 +71,7 @@
     object-fit: cover;
     width: 100%;
   }
+}
+
+@media only screen and (min-width: 1200px) {
 }

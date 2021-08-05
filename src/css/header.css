@@ -88,3 +88,38 @@
     padding: 0 0.5rem;
   }
 }
+
+@media only screen and (min-width: 1200px) {
+  .header--container {
+    display: flex;
+    align-items: center;
+    padding: 0 3rem;
+  }
+  .header--container h1 {
+    margin-right: 50px;
+  }
+  .nav--btn,
+  .nav--overlay {
+    display: none;
+  }
+  .nav {
+    position: relative;
+    width: auto;
+  }
+  .nav--menu {
+    position: relative;
+    top: 0;
+    transform: translateX(0%);
+    background: transparent;
+    width: auto;
+    height: auto;
+  }
+  .nav--menu--list {
+    width: 300px;
+  }
+  .nav--item {
+    color: var(--white);
+    margin-top: 4px;
+    font-family: var(--semifont);
+  }
+}
