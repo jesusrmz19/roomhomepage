@@ -85,10 +85,20 @@
   }
   .about--img {
     height: 100%;
+    width: 30%;
   }
   .about--txt h3,
   .about--txt p {
     font-size: 12px;
     line-height: 1.5;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .about--txt {
+    padding: 0 4.5rem;
+  }
+  .about--txt p {
+    line-height: 1.8;
   }
 }

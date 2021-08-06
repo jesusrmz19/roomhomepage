@@ -202,3 +202,16 @@
     bottom: 120px;
   }
 }
+
+@media only screen and (min-width: 1600px) {
+  .slide--txt {
+    padding: 0rem 5.5rem;
+  }
+  .slide--txt p {
+    line-height: 1.8;
+  }
+  .btn__shop {
+    bottom: 150px;
+    left: calc(60% + 5.5rem);
+  }
+}
