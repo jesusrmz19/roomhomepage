@@ -27,6 +27,7 @@
 
 .slide--img {
   border: 1px solid yellow;
+  width: 100%;
 }
 
 .slide--img > img {
