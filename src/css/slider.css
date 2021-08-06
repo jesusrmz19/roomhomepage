@@ -25,10 +25,15 @@
   transition: transform 1s;
 }
 
+.slide--img {
+  border: 1px solid yellow;
+}
+
 .slide--img > img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border: 1px solid red;
 }
 
 .slider__btn {
