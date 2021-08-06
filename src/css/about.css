@@ -4,10 +4,9 @@
 
 .about--img {
   overflow: hidden;
-}
-
-.about--img img {
-  object-position: -30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .about--txt h3 {
