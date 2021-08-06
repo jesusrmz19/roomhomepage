@@ -74,4 +74,21 @@
 }
 
 @media only screen and (min-width: 1200px) {
+  .about {
+    display: flex;
+    height: calc((100vh / 3) * 1);
+    align-items: center;
+  }
+  .about--txt {
+    padding: 0 2.5rem;
+    width: 45%;
+  }
+  .about--img {
+    height: 100%;
+  }
+  .about--txt h3,
+  .about--txt p {
+    font-size: 12px;
+    line-height: 1.5;
+  }
 }
